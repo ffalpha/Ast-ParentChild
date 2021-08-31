@@ -17,6 +17,10 @@
   "bin": {
     "ast-parentchild": "./index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ffalpha/Ast-ParentChild.git"
+},
   "dependencies": {
     "acron": "^1.0.5"
   }
