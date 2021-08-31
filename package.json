@@ -1,0 +1,23 @@
+{
+  "name": "ast-parentchild",
+  "version": "0.0.4",
+  "description": "Convert your JavaScript file to acron AST format and then output a parent-child realtionship",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ast",
+    "parent-child",
+    "AST",
+    "Acorn"
+  ],
+  "author": "Kalana Mihiranga",
+  "license": "ISC",
+  "bin": {
+    "ast-parentchild": "./index.js"
+  },
+  "dependencies": {
+    "acron": "^1.0.5"
+  }
+}
