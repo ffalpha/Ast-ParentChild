@@ -1,6 +1,7 @@
-# [Ast-ParentChild](https://www.npmjs.com/package/@niweera/node-asterer)
+# [Ast-ParentChild](https://www.npmjs.com/package/@ffalpha)
 
-Ast-Parent-Child is a CLI tool to generate the [AST](https://www.digitalocean.com/community/tutorials/js-traversing-ast) of a given JavaScript file, and then it will outptu a json file which has a parent-child realtionship foramt for the AST rather than outptuing a ordinary AST JSON format.
+
+Ast-Parent-Child is a CLI tool to generate the [AST](https://www.digitalocean.com/community/tutorials/js-traversing-ast) of a given JavaScript file, and then it will output a json file which has a parent-child relationship format for the AST rather than outputting a ordinary AST JSON format.
 
 Ast-ParentChild uses [AcornJS](https://github.com/acornjs/acorn) under the hood to generate the AST.
 
