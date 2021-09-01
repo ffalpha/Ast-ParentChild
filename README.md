@@ -1,4 +1,4 @@
-# [Ast-ParentChild](https://www.npmjs.com/package/@ffalpha)
+# [Ast-ParentChild](https://www.npmjs.com/package/ast-parentchild)
 
 
 Ast-Parent-Child is a CLI tool to generate the [AST](https://www.digitalocean.com/community/tutorials/js-traversing-ast) of a given JavaScript file, and then it will output a json file which has a parent-child relationship format for the AST rather than outputting a ordinary AST JSON format.
