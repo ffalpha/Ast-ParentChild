@@ -14,7 +14,7 @@ if(args[0]){
         var reader2 = new ObjectReader();
         var news = reader2.read(acorn.parse(file, {ecmaVersion: 2020}))
         if(args[1]){
-            fs.writeFileSync( args[1]+'.json', JSON.stringify(news, null, 2) , 'utf-8');
+            fs.writeFileSync( args[1], JSON.stringify(news, null, 2) , 'utf-8');
     
         }else{
             fs.writeFileSync('output.json', JSON.stringify(news, null, 2) , 'utf-8'); 
