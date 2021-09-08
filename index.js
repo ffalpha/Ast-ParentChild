@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#! /usr/bin/env node
 
 const ObjectReader = require('./reader/object.js');
 const fs = require('fs')
