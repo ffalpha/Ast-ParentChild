@@ -28,7 +28,7 @@ function obj2node(obj, linkName) {
     obj.forEach((item, i) => {
       if (Array.isArray(item)) {
         node = new DummyNode(obj2node(item, ''));
-        node.decorators.push(new LinkNameDecorator(`${linkName}[${i}]`));
+        // node.decorators.push(new LinkNameDecorator(`${linkName}[${i}]`));
         nodes.push(node);
       } else {
         node = obj2node(item, `${linkName}[${i}]`);
@@ -70,9 +70,9 @@ function obj2node(obj, linkName) {
 
   }
 
-  if (linkName !== '' && node.constructor !== ArrayNode) {
-    node.decorators.push(new LinkNameDecorator(linkName));
-  }
+  // if (linkName !== '' && node.constructor !== ArrayNode) {
+  //   node.decorators.push(new LinkNameDecorator(linkName));
+  // }
 
   return node;
 }

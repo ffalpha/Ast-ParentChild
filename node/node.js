@@ -21,7 +21,7 @@ module.exports = class Node {
     if (layout) {
       this.layout = layout;
     }
-    this.decorators = [];
+    // this.decorators = [];
   }
 
   
