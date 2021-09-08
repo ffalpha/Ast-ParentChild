@@ -1,4 +1,13 @@
-# [Ast-ParentChild](https://www.npmjs.com/package/ast-parentchild)
+# [Ast-ParentChild](https://www.npmjs.com/package/city-time)
+
+<div id="headline" align="center">
+  <h1>Ast-ParentChild</h1>
+  
+
+  <a href="https://www.npmjs.com/package/ast-parentchild">
+    <img src="https://badge.fury.io/js/ast-parentchild.svg" alt="PyPI version"></img>
+  </a>
+</div> 
 
 
 Ast-Parent-Child is a CLI tool to generate the [AST](https://www.digitalocean.com/community/tutorials/js-traversing-ast) of a given JavaScript file, and then it will output a json file which has a parent-child relationship format for the AST rather than outputting a ordinary AST JSON format.
@@ -111,12 +120,7 @@ The following is the output JSON file `output.json`.
                           "example"
                         ]
                       ],
-                      "children": [],
-                      "decorators": [
-                        {
-                          "linkName": "id"
-                        }
-                      ]
+                      "children": []
                     },
                     {
                       "id": 2,
@@ -142,37 +146,17 @@ The following is the output JSON file `output.json`.
                           "\"example\""
                         ]
                       ],
-                      "children": [],
-                      "decorators": [
-                        {
-                          "linkName": "init"
-                        }
-                      ]
-                    }
-                  ],
-                  "decorators": [
-                    {
-                      "linkName": "declarations[0]"
+                      "children": []
                     }
                   ]
                 }
-              ],
-              "layout": {},
-              "decorators": []
-            }
-          ],
-          "decorators": [
-            {
-              "linkName": "body[0]"
+              ]
             }
           ]
         }
-      ],
-      "layout": {},
-      "decorators": []
+      ]
     }
-  ],
-  "decorators": []
+  ]
 }
 ```
 
