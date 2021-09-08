@@ -18,10 +18,8 @@ module.exports = class Node {
     this.id = ++curMaxId;
     this.data = data;
     this.children = children;
-    if (layout) {
-      this.layout = layout;
-    }
-    // this.decorators = [];
+  
+    
   }
 
   
