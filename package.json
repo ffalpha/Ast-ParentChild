@@ -1,6 +1,6 @@
 {
   "name": "ast-parentchild",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Convert your JavaScript file to acron AST format and then output  a json file whihc have  parent-child realtionship between nodes",
   "main": "index.js",
   "scripts": {
