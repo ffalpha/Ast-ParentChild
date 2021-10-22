@@ -12,7 +12,7 @@ if(args[0]){
     if(fs.existsSync(args[0]) ){
         var file=fs.readFileSync(args[0]).toString()
         var reader2 = new ObjectReader();
-        var news = reader2.read(acorn.parse(file, {ecmaVersion: 2020,sourceType:'module',allowReturnOutsideFunction:true}))
+        var news = reader2.read(acorn.parse(file, {ecmaVersion: 2020,sourceType:'module',allowReturnOutsideFunction:true,allowImportExportEverywhere:true,allowHashBang:true}))
         if(args[1]){
             fs.writeFileSync( args[1], JSON.stringify(news, null, 2) , 'utf-8');
     
@@ -31,6 +31,5 @@ if(args[0]){
     console.log('File name is Empty or Please enter a valid file name')
 
 }
-
 
 
